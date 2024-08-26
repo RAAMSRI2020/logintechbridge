@@ -56,7 +56,8 @@ export const callNumbers = [{
     id: "call-number-1",
     icon: call,
     label: "Customer Support",
-    numbers: [{
+    content: "Having any queries",
+    links: [{
         name: "number",
         number: "+918015030882"
     }, {
