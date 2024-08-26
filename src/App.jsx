@@ -1,9 +1,14 @@
 import styles from "./style";
-import Navbar from './components/Navbar';
+import { Navbar,Header} from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden">
-    {/* Ensure Navbar spans the entire width */}
+    {/* Header */}
+    <div className="w-full flex  items-center h-[5vh]">
+      <Header/>
+    </div>
+    
+    {/* Navbar */}
     <div className="w-full flex items-center">
       <Navbar />
     </div>

@@ -2,6 +2,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "NeoGramTrial-Bold";
+    src: local("NeoGramTrial-Bold"), url("./assets/fonts/NeoGramTrial-Bold.otf");
+}
+
+@font-face {
+    font-family: "NeoGramTrial-Light";
+    src: local("NeoGramTrial-Light"), url("./assets/font/NeoGramTrial-Light.otf");
+}
+
+@font-face {
+    font-family: "Montserrat-VariableFont";
+    src: url("Montserrat-VariableFont"), url("./assets/fonts/Montserrat-VariableFont.ttf");
+}
+
+@font-face {
+    font-family: "AcuminVariableConcept";
+    src: url("AcuminVariableConcept"), url("./assets/fonts/AcuminVariableConcept.otf");
+}
+
 :root {
     --black-gradient: linear-gradient( 144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%);
     --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);

@@ -14,8 +14,8 @@ const Navbar = () => {
           alt="hoobank"
           className="w-[40px] h-[40px] transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg drop-shadow contrast-200"
         />
-        <span className="ml-2 text-lg font-extrabold font-sans bg-gradient-to-r from-blue-700 to-blue-500 text-transparent bg-clip-text">
-          LOGINTECHBRIDGE
+        <span className="ml-2 text-lg font-extrabold  text-bold bg-gradient-to-r from-blue-700 to-blue-500 text-transparent bg-clip-text font-text">
+          LOGIN Techbridge
         </span>
       </div>
       
