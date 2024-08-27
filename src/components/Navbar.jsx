@@ -17,13 +17,13 @@ const Navbar = () => {
     <div className="w-full flex items-center ">
       <nav className="w-full flex items-center justify-between px-5 py-2">
         {/* Logo Section */}
-        <div className="flex items-center bg-white border border-white flex-shrink-0 py-1 px-3 h-[12vh]">
+        <div className="flex items-center bg-white border border-white flex-shrink-0 ml-[5%] h-[12vh]  ">
           <img src={logo} alt="logo" className="h-12 w-12" />
           <div className="ml-3 flex flex-col justify-center">
             <p className="text-blue-500 font-title font-extrabold text-[20px] sm:text-[30px] leading-none">
               LOGIN
             </p>
-            <p className="font-text text-sm sm:text-base">TechBridge</p>
+            <p className="font-text text-sm sm:text-base tracking-widest">TechBridge</p>
           </div>
         </div>
 
