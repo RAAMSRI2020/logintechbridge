@@ -7,6 +7,7 @@ import facebook from "./facebook.svg"
 import twitter from "./twitter.svg"
 import mail from "./mail.svg"
 import instagram from "./instagram.svg"
+import search from "./search.svg"
 
 export {
     close,
@@ -18,4 +19,5 @@ export {
     twitter,
     mail,
     instagram,
+    search,
 }

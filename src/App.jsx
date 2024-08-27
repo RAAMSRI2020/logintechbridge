@@ -4,12 +4,12 @@ import { Navbar,Header} from "./components";
 const App = () => (
   <div className="w-full overflow-hidden">
     {/* Header */}
-    <div className="w-full flex  items-center h-[8vh] bg-black">
+    <div className="w-full flex  items-center h-[5vh] bg-black">
       <Header/>
     </div>
     
     {/* Navbar */}
-    <div className="w-full flex items-center">
+    <div className="w-full h-[12vh] flex items-center bg-blue-900">
       <Navbar />
     </div>
 
