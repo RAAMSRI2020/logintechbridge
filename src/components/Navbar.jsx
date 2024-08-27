@@ -15,9 +15,9 @@ const Navbar = () => {
 
   return (
     <div className="w-full flex items-center ">
-      <nav className="w-full flex items-center justify-between px-5 py-2">
+      <nav className="w-full flex items-center justify-between px-5 py-2 ">
         {/* Logo Section */}
-        <div className="flex items-center bg-white border border-white flex-shrink-0 ml-[5%] h-[12vh]  ">
+        <div className="flex items-center  bg-gray-200 border border-gray-200 flex-shrink-0 ml-[5%] h-[12vh]  ">
           <img src={logo} alt="logo" className="h-12 w-12" />
           <div className="ml-3 flex flex-col justify-center">
             <p className="text-blue-500 font-title font-extrabold text-[20px] sm:text-[30px] leading-none">
@@ -33,7 +33,7 @@ const Navbar = () => {
         {/* Icon Section */}
         <div className="flex items-center space-x-6 mr-[5%]">
           {/* Menu Icon */}
-          <div className="bg-white p-4 border border-white flex items-center justify-center flex-shrink-0 h-[12vh]">
+          <div className="bg-gray-200 p-4 border border-gray-200 flex items-center justify-center flex-shrink-0 h-[12vh]">
             <img src={menu} alt="menu" className="h-10 w-10 cursor-pointer" />
           </div>
 

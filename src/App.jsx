@@ -1,8 +1,7 @@
-import styles from "./style";
-import { Navbar,Header} from "./components";
+import { Navbar,Header,Home} from "./components";
 
 const App = () => (
-  <div className="w-full overflow-hidden">
+  <div className="w-full overflow-hidden bg-gray-200">
     {/* Header */}
     <div className="w-full flex  items-center h-[5vh] bg-black">
       <Header/>
@@ -14,10 +13,8 @@ const App = () => (
     </div>
 
     {/* Content Area */}
-    <div className={`${styles.flexCenter} ${styles.paddingX}`}>
-      <div className={`${styles.boxWidth}`}>
-        {/* Add your other components here */}
-      </div>
+    <div className="w-full flex  items-center bg-gray-200">
+      <Home/>
     </div>
   </div>
 );
