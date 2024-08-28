@@ -1,11 +1,12 @@
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Button from "./Button";
-import Home from "./Home";
+import Hero from "./Hero";
+
 
 export {
     Header,
     Navbar,
     Button,
-    Home,
+    Hero,
 }

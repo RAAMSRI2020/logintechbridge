@@ -1,4 +1,4 @@
-import { Navbar,Header,Home} from "./components";
+import { Navbar,Header,Hero} from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden bg-gray-200">
@@ -14,7 +14,7 @@ const App = () => (
 
     {/* Content Area */}
     <div className="w-full flex  items-center bg-gray-200">
-      <Home/>
+      <Hero />
     </div>
   </div>
 );
