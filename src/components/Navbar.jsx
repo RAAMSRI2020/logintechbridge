@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* Right Section (Menu + Search) */}
       <div className="flex items-center space-x-4 md:space-x-6">
         {/* Menu Icon */}
-        <div className="cursor-pointer bg-gray-200 p-[1.45rem]" onClick={() => setToggle(!toggle)}>
+        <div className="cursor-pointer bg-gray-200 sm:p-[1.45rem] p-5 h-[13vh]" onClick={() => setToggle(!toggle)}>
           <img
             src={toggle ? close : menu}
             alt="menu"
