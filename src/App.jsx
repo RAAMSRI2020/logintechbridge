@@ -16,6 +16,7 @@ const App = () => (
     {/* Content Area */}
     <div className="w-full flex items-center bg-white">
       <Hero />
+      
     </div>
 
     {/* Footer */}
