@@ -1,5 +1,5 @@
 import close from "./close.svg"
-import logo from "./logo.svg"
+import logo from "./logo.png"
 import menu from "./menu.svg"
 import call from "./call.svg"
 import linkedin from "./linkedin.svg"

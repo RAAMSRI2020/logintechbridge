@@ -18,7 +18,7 @@ const Header = () => {
     <header className="bg-black w-full">
       {isMobileView ? (
         // Mobile view (Icons only)
-        <div className="flex justify-between items-center px-4">
+        <div className="flex justify-between items-center px-4 font-poppins ">
           <div className="flex items-center space-x-4">
             {callNumbers.map((call) => (
               <a key={call.id} href={`tel:${call.links[0].number}`}>
