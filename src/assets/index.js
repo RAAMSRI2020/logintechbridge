@@ -9,6 +9,10 @@ import mail from "./mail.svg"
 import instagram from "./instagram.svg"
 import search from "./search.svg"
 import home from "./home.png"
+import course from "./course.svg"
+import establishment from "./establishment.svg"
+import certificate from "./certificate.svg"
+import placement from "./placement.svg"
 
 export {
     close,
@@ -22,4 +26,8 @@ export {
     instagram,
     search,
     home,
+    course,
+    establishment,
+    certificate,
+    placement,
 }

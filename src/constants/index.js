@@ -1,4 +1,4 @@
-import { facebook, instagram, twitter, linkedin, call, mail } from "../assets";
+import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement } from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -53,15 +53,15 @@ export const socialMedia = [{
 ];
 
 export const callNumbers = [{
-    id: "call-number-1",
+    id: "call-number",
     icon: call,
     label: "Customer Support",
     content: "Having any queries",
     links: [{
-        name: "number",
+        name: "number-1",
         number: "+918015030882"
     }, {
-        name: "number",
+        name: "number-2",
         number: "+918015030883"
     }]
 }];
@@ -131,5 +131,34 @@ export const footerLinks = [{
                 link: "https://www.hoobank.com/become-a-partner/",
             },
         ],
+    },
+];
+
+export const BannerList = [{
+        id: "tile-1",
+        icon: course,
+        title: "45+",
+        value: "Advanced Courses",
+    },
+    {
+        id: "tile-2",
+        icon: establishment,
+        title: "2019",
+        value: "Since Established",
+
+    },
+    {
+        id: "tile-3",
+        icon: certificate,
+        title: "45+",
+        value: "Certified Partner",
+
+    },
+    {
+        id: "tile-4",
+        icon: placement,
+        title: "100%",
+        value: "Placement Assistance",
+
     },
 ];

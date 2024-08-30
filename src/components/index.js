@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import Button from "./Button";
 import Hero from "./Hero";
 import Footer from "./Footer";
+import Banner from "./Banner";
 
 export {
     Header,
@@ -10,4 +11,5 @@ export {
     Button,
     Hero,
     Footer,
+    Banner,
 }
