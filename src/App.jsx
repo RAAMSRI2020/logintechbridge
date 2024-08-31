@@ -18,7 +18,7 @@ const App = () => (
       
       
     </div>
-    <div className="w-full flex items-center bg-blue-500">
+    <div className="w-full flex items-center bg-blue-700">
       <Banner/>
     </div>
   

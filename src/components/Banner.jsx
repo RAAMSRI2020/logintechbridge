@@ -5,7 +5,7 @@ const Banner = () => (
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:w-[50vw] lg:w-[100vw] w-screen'>
             {BannerList.map((item, index) => (
                 <div key={item.id} 
-                    className='flex flex-col bg-blue-400 p-4 sm:p-6 rounded-lg'>
+                    className='flex flex-col bg-blue-500 p-4 sm:p-6 rounded-lg'>
                     <div className='flex justify-center items-center mb-4'>
                         <div className='w-16 h-16 sm:w-18 sm:h-18 rounded-full overflow-hidden flex justify-center items-center bg-gray-500'>
                             <img 
