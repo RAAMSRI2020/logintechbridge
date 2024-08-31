@@ -1,5 +1,4 @@
 import { Navbar, Header, Hero, Footer,Banner } from "./components";
-import styles from "./style"; // Make sure this path is correct if you are using custom styles
 
 const App = () => (
   <div className="w-full overflow-hidden bg-white">
@@ -19,7 +18,7 @@ const App = () => (
       
       
     </div>
-    <div className="w-full flex items-center">
+    <div className="w-full flex items-center bg-blue-500">
       <Banner/>
     </div>
   

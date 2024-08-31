@@ -1,17 +1,26 @@
-import React from 'react';
-import { BannerList } from '../constants'
-import { certificate } from '../assets';
+import { BannerList } from "../constants";
 
 const Banner = () => (
-    <section id="banner" className='p-6'>
-        <div className='flex flex-row items-center bg-gray-500 rounded-lg p-4 h-auto w-full'>
-            <div className='flex-shrink-0'>
-                <img src={certificate} alt="course" className='h-16 w-16 rounded bg-dimWhite p-3' />
-            </div>
-            <div className='ml-4 text-white flex flex-col'>
-                <h3 className='text-white text-2xl font-bold'>80+</h3>
-                <span className='text-lg'>Certified Partners</span>
-            </div>
+    <section id='banner'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-1 md:w-[50vw] lg:w-[100vw] w-screen'>
+            {BannerList.map((item, index) => (
+                <div key={item.id} 
+                    className='flex flex-col bg-blue-400 p-4 sm:p-6 rounded-lg'>
+                    <div className='flex justify-center items-center mb-4'>
+                        <div className='w-16 h-16 sm:w-18 sm:h-18 rounded-full overflow-hidden flex justify-center items-center bg-gray-500'>
+                            <img 
+                                src={item.icon} 
+                                alt={`icon-${index}`} 
+                                className='w-12 h-12 object-cover' 
+                            />
+                        </div>
+                    </div>
+                    <div className='flex flex-col text-center text-dimWhite'>
+                        <h3 className='font-poppins font-extrabold text-4xl sm:text-4xl'>{item.title}</h3>
+                        <span className='font-poppins font-semibold text-2xl sm:text-xl'>{item.value}</span>
+                    </div>
+                </div>
+            ))}
         </div>
     </section>
 );
