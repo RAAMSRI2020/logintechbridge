@@ -42,12 +42,12 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {toggle && (
-        <div className="absolute top-[100%] right-0 mt-2 bg-gray-100 shadow-lg w-full sm:w-[200px] rounded-lg z-50">
-          <ul className="flex flex-col items-center space-y-4 py-4">
+        <div className="absolute top-[100%] right-0 mt-2 bg-transparent shadow-lg w-full sm:w-[200px] rounded-sm z-50 ">
+          <ul className="flex flex-col items-center space-y-4 py-4 hover:bg-slate-200">
             {navLinks.map((nav) => (
               <li
                 key={nav.id}
-                className="font-poppins font-normal text-[16px] text-black"
+                className="font-poppins font-normal text-[16px] text-black hover:bg-slate-100 p-2"
               >
                 <a href={`#${nav.id}`} onClick={() => setToggle(false)}>
                   {nav.title}
