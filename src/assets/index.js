@@ -13,6 +13,12 @@ import course from "./course.svg"
 import establishment from "./establishment.svg"
 import certificate from "./certificate.svg"
 import placement from "./placement.svg"
+import civil from "./civil.svg"
+import mechanical from "./mechanical.svg"
+import programming from "./programming.svg"
+import graphicdesign from "./graphic-design.svg"
+import tally from "./tally.svg"
+import msoffice from "./ms-office.svg"
 
 export {
     close,
@@ -30,4 +36,10 @@ export {
     establishment,
     certificate,
     placement,
+    civil,
+    mechanical,
+    programming,
+    graphicdesign,
+    tally,
+    msoffice,
 }

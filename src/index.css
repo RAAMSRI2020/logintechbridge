@@ -31,6 +31,30 @@
     scroll-behavior: smooth;
 }
 
+.svg-icon {
+    transition: fill 0.3s ease;
+}
+
+.svg-icon:hover {
+    fill: white;
+    /* Change color on hover */
+}
+
+.svg-mask {
+    width: 24px;
+    height: 24px;
+    background-color: #6262ff;
+    /* Default color */
+    -webkit-mask: url('/home/sriraam/Documents/Projects/Logintechbridge/logintechbridge/src/assets') no-repeat center;
+    mask: url('/home/sriraam/Documents/Projects/Logintechbridge/logintechbridge/src/assets') no-repeat center;
+    transition: background-color 0.3s ease;
+}
+
+.svg-mask:hover {
+    background-color: white;
+    /* Change color on hover */
+}
+
 .text-gradient {
     background: radial-gradient( 64.18% 64.18% at 71.16% 35.69%, #def9fa 0.89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
     -webkit-background-clip: text;

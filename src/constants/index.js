@@ -1,4 +1,4 @@
-import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement } from "../assets";
+import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement, civil, mechanical, programming, graphicdesign, tally, msoffice } from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -162,3 +162,34 @@ export const BannerList = [{
 
     },
 ];
+
+export const CategoryList = [{
+        id: "category-1",
+        title: "Civil Engineering",
+        icon: civil,
+    }, {
+        id: "category-2",
+        title: "Mechanical Engineering",
+        icon: mechanical,
+    },
+    {
+        id: "category-3",
+        title: "Software Training",
+        icon: programming,
+    },
+    {
+        id: "category-4",
+        title: "Graphical Design",
+        icon: graphicdesign,
+    },
+    {
+        id: "category-5",
+        title: "Tally Software",
+        icon: tally,
+    },
+    {
+        id: "category-6",
+        title: "Microsoft Office",
+        icon: msoffice,
+    },
+]
