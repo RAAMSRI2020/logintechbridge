@@ -41,8 +41,8 @@
 }
 
 .svg-mask {
-    width: 24px;
-    height: 24px;
+    width: 3rem;
+    height: 3rem;
     background-color: #6262ff;
     /* Default color */
     -webkit-mask: url('/home/sriraam/Documents/Projects/Logintechbridge/logintechbridge/src/assets') no-repeat center;

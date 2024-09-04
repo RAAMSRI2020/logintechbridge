@@ -19,6 +19,10 @@ import programming from "./programming.svg"
 import graphicdesign from "./graphic-design.svg"
 import tally from "./tally.svg"
 import msoffice from "./ms-office.svg"
+import aboutus1 from "./about-us1.png"
+import aboutus2 from "./about-us2.png"
+import tick from "./tick.svg"
+
 
 export {
     close,
@@ -42,4 +46,7 @@ export {
     graphicdesign,
     tally,
     msoffice,
+    aboutus1,
+    aboutus2,
+    tick,
 }

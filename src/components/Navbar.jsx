@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <div className="w-full flex items-center justify-between px-4 py-3 relative ">
       {/* Logo Section */}
-      <div className="flex items-center bg-gray-200 h-[13vh] sm:ml-12 ml-4">
+      <div className="flex items-center bg-gray-200 h-[5.5rem] sm:ml-12 ml-4">
         <img
           src={logo}
           alt="logo"
@@ -22,7 +22,7 @@ const Navbar = () => {
       {/* Right Section (Menu + Search) */}
       <div className="flex items-center space-x-4 md:space-x-6">
         {/* Menu Icon */}
-        <div className="cursor-pointer bg-gray-200 sm:p-[1.45rem] p-5 h-[13vh]" onClick={() => setToggle(!toggle)}>
+        <div className="cursor-pointer bg-gray-200 sm:p-[1.45rem] p-5 h-[5.5rem]" onClick={() => setToggle(!toggle)}>
           <img
             src={toggle ? close : menu}
             alt="menu"

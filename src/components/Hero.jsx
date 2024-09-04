@@ -1,7 +1,7 @@
 import { home } from "../assets";
 
 const Hero = () => (
-  <section id='hero' className='flex flex-col sm:flex-col md:flex-col lg:flex-row lg:h-screen'>
+  <section id='hero' className='flex flex-col sm:flex-col md:flex-col lg:flex-row lg:h-screen h-auto'>
     {/* Text Content */}
     <div className='flex-1 flex justify-center items-start flex-col lg:px-12 px-6 py-12 lg:py-0 text-center sm:text-left md:text-center lg:text-left'>
       <p className='font-title text-5xl '>

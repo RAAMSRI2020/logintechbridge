@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Footer from "./Footer";
 import Banner from "./Banner";
 import Category from "./Category";
+import AboutUs from "./AboutUs";
 
 export {
     Header,
@@ -14,4 +15,5 @@ export {
     Footer,
     Banner,
     Category,
+    AboutUs,
 }
