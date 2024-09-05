@@ -7,6 +7,8 @@ import Banner from "./Banner";
 import Category from "./Category";
 import AboutUs from "./AboutUs";
 import Service from "./Service";
+import Viewmore from "./Viewmore";
+
 export {
     Header,
     Navbar,
@@ -17,4 +19,5 @@ export {
     Category,
     AboutUs,
     Service,
+    Viewmore,
 }

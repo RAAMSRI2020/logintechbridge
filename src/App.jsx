@@ -19,11 +19,10 @@ const App = () => (
     <div className="w-full flex items-center bg-blue-700">
       <Banner/>
     </div>
-    <br />
-    <div className="w-full flex items-center bg-dimWhite">
+    <div className="w-full flex items-center bg-indigo-50">
       <Category />
     </div>
-    <div className="w-full flex items-center bg-dimWhite">
+    <div className="w-full flex items-center bg-indigo-50">
       <AboutUs/>
     </div>
     <div className="w-full flex items-center bg-indigo-50">

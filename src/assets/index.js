@@ -22,6 +22,12 @@ import msoffice from "./ms-office.svg"
 import aboutus1 from "./about-us1.png"
 import aboutus2 from "./about-us2.png"
 import tick from "./tick.svg"
+import elearning from "./elearning.svg"
+import campus from "./campus.svg"
+import academy from "./academy.svg"
+import eleraningImg from "./elearning.png"
+import campusImg from "./campus.png"
+import academyImg from "./academy.png"
 
 
 export {
@@ -49,4 +55,10 @@ export {
     aboutus1,
     aboutus2,
     tick,
+    elearning,
+    campus,
+    academy,
+    eleraningImg,
+    campusImg,
+    academyImg,
 }

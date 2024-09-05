@@ -1,4 +1,4 @@
-import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement, civil, mechanical, programming, graphicdesign, tally, msoffice } from "../assets";
+import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement, civil, mechanical, programming, graphicdesign, tally, msoffice, academy, academyImg, campus, campusImg, elearning, eleraningImg } from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -192,4 +192,27 @@ export const CategoryList = [{
         title: "Microsoft Office",
         icon: msoffice,
     },
+]
+
+export const ServiceList = [{
+        id: "service-1",
+        title: "Campus Training",
+        description: "Our training programs to ensure effective career preparedness and placement",
+        icon: campus,
+        image: campusImg,
+    },
+    {
+        id: "service-2",
+        title: "E-Learning Services",
+        description: "Our platform to provide comprehensive and up-to-date IT courses",
+        icon: elearning,
+        image: eleraningImg,
+    },
+    {
+        id: "service-3",
+        title: "Academy Services",
+        description: "Our dedicated training academy to provide personalized and customized IT training solutions",
+        icon: academy,
+        image: academyImg,
+    }
 ]
