@@ -8,6 +8,8 @@ import Category from "./Category";
 import AboutUs from "./AboutUs";
 import Service from "./Service";
 import Viewmore from "./Viewmore";
+import Learningadvantages from "./Learningadvantages";
+import LearningAnimation from "./LearningAnimation";
 
 export {
     Header,
@@ -20,4 +22,6 @@ export {
     AboutUs,
     Service,
     Viewmore,
+    Learningadvantages,
+    LearningAnimation,
 }

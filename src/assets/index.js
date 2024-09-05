@@ -28,7 +28,7 @@ import academy from "./academy.svg"
 import eleraningImg from "./elearning.png"
 import campusImg from "./campus.png"
 import academyImg from "./academy.png"
-
+import learning from "./learning.json"
 
 export {
     close,
@@ -61,4 +61,5 @@ export {
     eleraningImg,
     campusImg,
     academyImg,
+    learning,
 }
