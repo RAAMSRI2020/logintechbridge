@@ -29,7 +29,10 @@ import eleraningImg from "./elearning.png"
 import campusImg from "./campus.png"
 import academyImg from "./academy.png"
 import learning from "./learning.json"
-
+import rating from "./rating.svg"
+import guidance from "./guidance.svg"
+import realtimelearning from "./realtime-learning.svg"
+import support from "./support.svg"
 export {
     close,
     logo,
@@ -62,4 +65,8 @@ export {
     campusImg,
     academyImg,
     learning,
+    rating,
+    guidance,
+    realtimelearning,
+    support,
 }

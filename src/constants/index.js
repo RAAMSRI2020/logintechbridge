@@ -1,4 +1,31 @@
-import { facebook, instagram, twitter, linkedin, call, mail, course, certificate, establishment, placement, civil, mechanical, programming, graphicdesign, tally, msoffice, academy, academyImg, campus, campusImg, elearning, eleraningImg } from "../assets";
+import {
+    facebook,
+    instagram,
+    twitter,
+    linkedin,
+    call,
+    mail,
+    course,
+    certificate,
+    establishment,
+    placement,
+    civil,
+    mechanical,
+    programming,
+    graphicdesign,
+    tally,
+    msoffice,
+    academy,
+    academyImg,
+    campus,
+    campusImg,
+    elearning,
+    eleraningImg,
+    guidance,
+    realtimelearning,
+    rating,
+    support,
+} from "../assets";
 
 export const navLinks = [{
         id: "home",
@@ -214,5 +241,27 @@ export const ServiceList = [{
         description: "Our dedicated training academy to provide personalized and customized IT training solutions",
         icon: academy,
         image: academyImg,
+    }
+]
+
+export const LearningAdavantagesList = [{
+        id: 'advantage-1',
+        icon: rating,
+        title: "4.5/5 Rating"
+    },
+    {
+        id: 'advantage-2',
+        icon: guidance,
+        title: "1 to 1 Guidance"
+    },
+    {
+        id: 'advantage-3',
+        icon: realtimelearning,
+        title: "Realtime Learning"
+    },
+    {
+        id: 'advantage-4',
+        icon: support,
+        title: "24/7 Support"
     }
 ]
