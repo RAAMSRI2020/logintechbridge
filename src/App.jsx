@@ -1,4 +1,4 @@
-import { Navbar, Header, Hero, Footer,Banner,Category,AboutUs,Service,Learningadvantages } from "./components";
+import { Navbar, Header, Hero, Footer,Banner,Category,AboutUs,Service,Learningadvantages,Testimonial } from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden ">
@@ -19,17 +19,20 @@ const App = () => (
     <div className="w-full flex items-center bg-blue-700">
       <Banner/>
     </div>
-    <div className="w-full flex items-center bg-indigo-50">
+    <div className="w-full flex items-center bg-indigo-100">
       <Category />
     </div>
-    <div className="w-full flex items-center bg-indigo-50">
+    <div className="w-full flex items-center bg-indigo-100">
       <AboutUs/>
     </div>
-    <div className="w-full flex items-center bg-indigo-50">
+    <div className="w-full flex items-center bg-indigo-100">
       <Service/>
     </div>
-    <div className="w-full flex items-center bg-indigo-50">
+    <div className="w-full flex items-center bg-indigo-100">
       <Learningadvantages/>
+    </div>
+    <div className="w-full flex items-center bg-indigo-100">
+      <Testimonial/>
     </div>
     {/* Footer */}
     <div className='bg-gray-600 w-full'>

@@ -33,6 +33,12 @@ import rating from "./rating.svg"
 import guidance from "./guidance.svg"
 import realtimelearning from "./realtime-learning.svg"
 import support from "./support.svg"
+import people1 from "./people01.png"
+import people2 from "./people02.png"
+import people3 from "./people03.png"
+import quotes from "./quotes.svg"
+
+
 export {
     close,
     logo,
@@ -69,4 +75,8 @@ export {
     guidance,
     realtimelearning,
     support,
+    people1,
+    people2,
+    people3,
+    quotes,
 }

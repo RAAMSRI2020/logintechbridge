@@ -10,6 +10,7 @@ import Service from "./Service";
 import Viewmore from "./Viewmore";
 import Learningadvantages from "./Learningadvantages";
 import LearningAnimation from "./LearningAnimation";
+import Testimonial from "./Testimonial";
 
 export {
     Header,
@@ -24,4 +25,5 @@ export {
     Viewmore,
     Learningadvantages,
     LearningAnimation,
+    Testimonial,
 }
