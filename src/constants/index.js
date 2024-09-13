@@ -181,8 +181,8 @@ export const BannerList = [{
     {
         id: "tile-3",
         icon: certificate,
-        title: "45+",
-        value: "Certified Partner",
+        title: "10+",
+        value: "Industrial Experience",
 
     },
     {
@@ -272,23 +272,24 @@ export const LearningAdavantagesList = [{
 
 export const feedback = [{
         id: "feedback-1",
-        content: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-        name: "Herman Jensen",
-        title: "Founder & Leader",
+        content: "I recently visit login techbridge office at mallumichampatti , Coimbatore it is best place to learn cad and cam software like Auto CAD, Solidworks, catia, master CAM, civil CAD software and accounting software like tally, management software like power Bi",
+        name: "Santhosh Babu S",
+        title: "",
         img: people1,
     },
     {
         id: "feedback-2",
-        content: "Money makes your life easier. If you're lucky to have it, you're lucky.",
-        name: "Steve Mark",
-        title: "Founder & Leader",
+        content: "I am thoroughly impressed with the ambience of this establishment. The atmosphere is conducive to learning, with comfortable seating arrangements and well-lit classrooms. The teaching staff is exceptional; they are knowledgeable, dedicated, and passionate about their subjects. Their teaching methods are innovative and engaging, making learning enjoyable and effective. I highly recommend this place for anyone seeking quality education in a welcoming environment.",
+        name: "Manoj",
+        title: "",
         img: people2,
     },
     {
         id: "feedback-3",
-        content: "It is usually people in the money business, finance, and international trade that are really rich.",
-        name: "Kenn Gallagher",
-        title: "Founder & Leader",
+        content: "It is an Amazing place where you can learn software skills like Auto cad,Revit, sketch up etc ... for civil engineering student and other departments courses also . Friendly staffs and friendly environment",
+        name: "Naveen L",
+        title: "",
         img: people3,
     },
+
 ];

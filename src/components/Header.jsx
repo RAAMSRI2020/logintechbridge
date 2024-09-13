@@ -15,11 +15,11 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-black w-full">
+    <header className="bg-black w-full font-paragraph">
       {isMobileView ? (
         // Mobile view (Icons only)
         <div className="flex justify-between items-center px-4 font-poppins ">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 font-paragraph">
             {callNumbers.map((call) => (
               <a key={call.id} href={`tel:${call.links[0].number}`}>
                 <img src={call.icon} alt={call.label} className="w-6 h-6" />
@@ -44,7 +44,7 @@ const Header = () => {
         // Desktop view (Full content)
         <div className="flex flex-row justify-between items-center w-full px-4">
           {/* Call Numbers Section on the Left */}
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between ">
             {callNumbers.map((call) => (
               <div key={call.id} className="flex items-center">
                 <img src={call.icon} alt={call.label} className="px-4" />

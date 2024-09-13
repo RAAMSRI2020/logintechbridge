@@ -12,7 +12,7 @@ const Navbar = () => {
         <img
           src={logo}
           alt="logo"
-          className="h-[50px] w-[150px] sm:h-[60px] sm:w-[180px] md:h-[73px] md:w-[225px] transition-all"
+          className="h-[50px] w-[160px] sm:h-[60px] sm:w-[210px] md:h-[73px] md:w-[280px] transition-all"
         />
       </div>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Dropdown */}
       {toggle && (
-        <div className="absolute top-[100%] right-0 mt-2 bg-transparent shadow-lg w-full sm:w-[200px] rounded-sm z-50 ">
+        <div className="absolute top-[100%] right-0 mt-2  shadow-lg w-full sm:w-[200px] rounded-sm z-50  bg-gray-200">
           <ul className="flex flex-col items-center space-y-4 py-4 hover:bg-slate-200">
             {navLinks.map((nav) => (
               <li

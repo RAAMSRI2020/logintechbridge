@@ -11,6 +11,8 @@ import Viewmore from "./Viewmore";
 import Learningadvantages from "./Learningadvantages";
 import LearningAnimation from "./LearningAnimation";
 import Testimonial from "./Testimonial";
+import GetstartedButton from "./GetstartedButton";
+import GetstartedBanner from "./GetstartedBanner";
 
 export {
     Header,
@@ -26,4 +28,6 @@ export {
     Learningadvantages,
     LearningAnimation,
     Testimonial,
+    GetstartedButton,
+    GetstartedBanner,
 }

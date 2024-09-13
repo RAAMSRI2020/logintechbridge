@@ -2,7 +2,7 @@ import { aboutus1 ,aboutus2,tick} from "../assets"
 
 
 const AboutUs = () => (
-    <section id='about-us ' className="border-2 border-white shadow-current">
+    <section id='about-us ' className="border-2 border-white shadow-current bg-indigo-100">
         <div className="w-full flex flex-1 md:flex-row flex-col items-center h-auto ">
             {/* Image section */}
             <div className="relative flex w-screen md:w-[50vw]  bg-dimWhite shadow border border-white">
@@ -17,9 +17,9 @@ const AboutUs = () => (
 
             {/* text section */}
             <div className="h-[100%] md:w-[50vw] w-screen flex flex-col p-4 ">
-                <h4 className="font-poppins  font-bold text-blue-400 text-xl leading-loose p-3">ABOUT US</h4>
+                <h4 className="font-poppins  font-extrabold text-blue-400 text-3xl leading-loose p-3">ABOUT US</h4>
                 <p className="font-poppins text-3xl font-semibold leading-loose">Leading the Way to Career <br className="sm:block hidden"/> Success <span className="text-blue-400 ">Login TechBridge</span></p>
-                <p className=" text-gray-400 leading-loose text-wrap p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita voluptas delectus eligendi et fugiat aspernatur, doloribus numquam aperiam a ipsum, tempore minima praesentium commodi omnis blanditiis deleniti accusamus porro ipsam. Quod maxime molestias consequatur aliquam nam iste quia quae possimus.</p>
+                <p className=" text-gray-600 leading-loose text-wrap p-3 text-justify">Welcome to LOGIN TECHBRIDGE, a distinguished hub for skill development that has been at the forefront of transforming aspiring individuals into industry-ready professionals. With over a decade of expertise in the teaching and learning process, we take pride in our commitment to fostering talent across various domains.We cater to a diverse audience, including students from engineering and arts colleges, job seekers, and working professionals. Our tailored training programs are designed to meet the specific needs of each group, ensuring a dynamic and engaging learning experience..</p>
                 <ul className="leading-loose p-4">
                     <li>
                         <img src={tick} className="h-6 w-6 inline leading-loose"/>
