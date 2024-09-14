@@ -291,5 +291,26 @@ export const feedback = [{
         title: "",
         img: people3,
     },
+    {
+        id: "feedback-4",
+        content: "It is an Amazing place where you can learn software skills like Auto cad,Revit, sketch up etc ... for civil engineering student and other departments courses also . Friendly staffs and friendly environment",
+        name: "Naveen L",
+        title: "",
+        img: people3,
+    },
+    {
+        id: "feedback-5",
+        content: "It is an Amazing place where you can learn software skills like Auto cad,Revit, sketch up etc ... for civil engineering student and other departments courses also . Friendly staffs and friendly environment",
+        name: "Naveen L",
+        title: "",
+        img: people3,
+    },
+    {
+        id: "feedback-6",
+        content: "It is an Amazing place where you can learn software skills like Auto cad,Revit, sketch up etc ... for civil engineering student and other departments courses also . Friendly staffs and friendly environment",
+        name: "Naveen L",
+        title: "",
+        img: people3,
+    },
 
 ];
