@@ -29,6 +29,7 @@ import {
     people2,
     people3,
     quotes,
+    
 } from "../assets";
 
 export const navLinks = [{
@@ -320,6 +321,70 @@ export const feedback = [{
 
 ];
 
-// export const LocationDetailLinks={
+export const  TimingList=[
+    {
+        id: "timing-1",
+        day: "Monday",
+        time:"10:00 am - 7:00pm"
+    },
+    {
+        id: "timing-2",
+        day: "Tuesday",
+        time:"10:00 am - 7:00pm"
+    },
+    {
+        id: "timing-3",
+        day: "Wednesday",
+        time:"10:00 am - 7:00pm"
+    },
+    {
+        id: "timing-4",
+        day: "Thursday",
+        time:"10:00 am - 7:00pm"
+    },
+    {
+        id: "timing-5",
+        day: "Friday",
+        time:"10:00 am - 7:00pm"
+    },
+    {
+        id: "timing-6",
+        day: "Saturday",
+        time:"10:00 am - 7:00pm"
+    },
+];
 
-// }
+export const FeatureList=[
+    {
+        id: "feature-1",
+        description:"Comprehensive Curriculum"
+    },
+    {
+        id: "feature-2",
+        description:"Personalized Learning Paths"
+    },
+    {
+        id: "feature-3",
+        description:"Real-World Projects"
+    },
+    {
+        id: "feature-4",
+        description:"Updated Course Material"
+    },
+    {
+        id:"feature-5",
+        description:"Dedicated Support Team",
+    },
+    {
+        id: "feature-6",
+        description:"Networking Opportunities"
+    },
+    {
+        id: "feature-7",
+        description:"Seminar & Workshops"
+    },
+    {
+        id: "feature-8",
+        description:"Job Placement Assistance"
+    },
+];
