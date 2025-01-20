@@ -97,6 +97,11 @@ export const callNumbers = [{
     }]
 }];
 
+export const Address=[{
+    id: "address",
+    label: "Address",
+    content: "2/516, SNA Complex, Pollachi Main Road, Coimbatore, Tamil Nadu 641050"
+}]
 export const emailAddress = [{
     id: "email",
     icon: mail,
@@ -314,3 +319,7 @@ export const feedback = [{
     },
 
 ];
+
+// export const LocationDetailLinks={
+
+// }

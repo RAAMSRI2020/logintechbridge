@@ -13,6 +13,7 @@ import LearningAnimation from "./LearningAnimation";
 import Testimonial from "./Testimonial";
 import GetstartedButton from "./GetstartedButton";
 import GetstartedBanner from "./GetstartedBanner";
+import ContactUs from "./ContactUs";
 
 export {
     Header,
@@ -30,4 +31,5 @@ export {
     Testimonial,
     GetstartedButton,
     GetstartedBanner,
+    ContactUs,
 }

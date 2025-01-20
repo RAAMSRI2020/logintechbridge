@@ -37,7 +37,9 @@ import people1 from "./people01.png"
 import people2 from "./people02.png"
 import people3 from "./people03.png"
 import quotes from "./quotes.svg"
-
+import arrow from "./arrow.svg"
+import banner from "./banner.png"
+import officebuilding from "./officebulding.jpg"
 
 export {
     close,
@@ -79,4 +81,7 @@ export {
     people2,
     people3,
     quotes,
+    arrow,
+    banner,
+    officebuilding,
 }
