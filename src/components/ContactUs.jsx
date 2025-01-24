@@ -99,14 +99,35 @@ const ContactUs = () =>  (
         </ul>
         </div>
         </div>
-        <div className="w-full h-auto md:h-[80vh] flex flex-col items-center justify-center m-3">
-            <form action="#" className="flex flex-col items-center space-y-6 font-poppins bg-white h-auto md:h-[100%] md:w-[30%] p-10 border-2 border-transparent text-center">
-                <h1 className="font-semibold text-2xl leading-loose">Get In Touch</h1>
-                <h2 className="font-medium text-xl leading-normal">Fill in the form to get free career counselling</h2>
-                <input type="text" name="" id="" placeholder="your name"/>
-                <input type="text" placeholder="your email" />
-                <input type="text" name="" id="" placeholder="your mobile number"/>
-                <input type="text" name="" id="" placeholder="Enquiry for"/>
+        <div className="w-full h-auto flex flex-col items-center justify-center m-3">
+            <form action="#" className="w-screen sm:w-[50vw] md:w-[30vw] h-auto flex flex-col bg-white rounded-sm shadow-lg border-1 border-gray-400 p-6">
+                <div className="px-2 py-3 font-poppins mt-2  text-gray-600 text-2xl">
+                  <h2 className="ml-4">Get In Touch</h2>
+                </div>
+                <div className="px-2 py-3 font-poppins mt-2  text-gray-600 text-xl">
+                  <h2 className="ml-4">Fill in the form to get free career counselling*</h2>
+                </div>
+                <div  className="mt-2">
+                  <label htmlFor="name" className="block px-3 py-2 font-poppins text-gray-700 text-[1rem] ml-4">Enter your name*</label>
+                </div>
+                <div className="mt-2">
+                  <input id="name" type="text" className="w-[80%] px-3 py-2 font-poppins text-gray-300 border-2 border-gray-500  rounded-xl shadow-sm focus:outline-none focus:border-blue-200 focus:ring-1 focus:ring-blue-400 ml-4 border-1 "/>
+                </div>
+                <div  className="mt-2">
+                  <label htmlFor="name" className="block px-3 py-2 font-poppins text-gray-700 text-[1rem] ml-4">Enter your Email*</label>
+                </div>
+                <div className="mt-2">
+                  <input id="name" type="text" className="w-[80%] px-3 py-2 font-poppins text-gray-300 border-2 border-gray-500  rounded-xl shadow-sm focus:outline-none focus:border-blue-200 focus:ring-1 focus:ring-blue-400 ml-4 border-1 "/>
+                </div>
+                <div  className="mt-2">
+                  <label htmlFor="name" className="block px-3 py-2 font-poppins text-gray-700 text-[1rem] ml-4">Enter your Mobile number*</label>
+                </div>
+                <div className="mt-2">
+                  <input id="name" type="text" className="w-[80%] px-3 py-2 font-poppins text-gray-300 border-2 border-gray-500  rounded-xl shadow-sm focus:outline-none focus:border-blue-200 focus:ring-1 focus:ring-blue-400 ml-4 border-1 "/>
+                </div>
+                <div  className="mt-6">
+                  <button className="w-[40%] px-4 py-2 bg-blue-800 text-center border-2 border-blue-300 rounded-lg shadow-lg focus:ring-1 focus:ring-blue-500 text-white text-xl ml-[4.5rem] sm:ml-[6rem] md:ml-[6.5rem]">Submit</button>
+                </div>
             </form>
         </div>
 
