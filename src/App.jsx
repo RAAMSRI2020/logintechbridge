@@ -1,4 +1,4 @@
-import { Navbar, Header, Hero, Footer,Banner,Category,AboutUs,Service,Learningadvantages,Testimonial,GetstartedBanner,ContactUs } from "./components";
+import { Navbar, Header, Hero, Footer,Banner,Category,AboutUs,Service,Learningadvantages,Testimonial,GetstartedBanner,Getintouch} from "./components";
 
 const App = () => (
   <div className="w-full overflow-hidden ">
@@ -38,7 +38,7 @@ const App = () => (
       <GetstartedBanner />
     </div>
     <div className="w-full flex items-center bg-indigo-100">
-      <ContactUs />
+      <Getintouch />
     </div>
     {/* Footer */}
     <div className='bg-gray-600 w-full'>

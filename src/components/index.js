@@ -14,6 +14,7 @@ import Testimonial from "./Testimonial";
 import GetstartedButton from "./GetstartedButton";
 import GetstartedBanner from "./GetstartedBanner";
 import ContactUs from "./ContactUs";
+import Getintouch from "./Getintouch";
 
 export {
     Header,
@@ -32,4 +33,5 @@ export {
     GetstartedButton,
     GetstartedBanner,
     ContactUs,
+    Getintouch,
 }
