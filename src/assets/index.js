@@ -40,6 +40,7 @@ import quotes from "./quotes.svg"
 import arrow from "./arrow.svg"
 import banner from "./banner.png"
 import officebuilding from "./officebulding.jpg"
+import modalImg from "./modalside.jpg"
 
 export {
     close,
@@ -84,4 +85,5 @@ export {
     arrow,
     banner,
     officebuilding,
+    modalImg,
 }
