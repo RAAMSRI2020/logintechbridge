@@ -15,7 +15,7 @@ import GetstartedButton from "./GetstartedButton";
 import GetstartedBanner from "./GetstartedBanner";
 import ContactUs from "./ContactUs";
 import Getintouch from "./Getintouch";
-import PopUPModal from "./PopUPModal";
+
 
 export {
     Header,
@@ -35,5 +35,5 @@ export {
     GetstartedBanner,
     ContactUs,
     Getintouch,
-    PopUPModal,
+    
 }
